@@ -1,0 +1,20 @@
+###########
+##       ##----------|
+##  CPU  ##          | 
+##       ##          |
+###########----|     |
+  |     |      |     |
+  |     |      |     |
+  |     |      |     | 
+  v     v      v     v
+ RAX   RBX    RSI   RDI
+ EAX   EBX    ESI   EDI
+ AX    BX     SI    DI
+
+- CPU: É o processador em si, contém espaços de memória (registradores)
+- Registradores: 
+    - Prefixo R é usado para registradores 64 bits
+    - O que vem após o R, é uma abreviação ax=acumullator cx=counter
+    - No geral, hoje em dia os registradosres são de uso livre
+    - Prefixo E, é utilizado para registradores de 32 bits
+    - Registradores sem prefixo são de 16 bits
